@@ -57,8 +57,8 @@ function onClick(evt) {
         historyO.push(gameId);
         winner = isWinner(historyO);
     }
-    // console.log("O", historyO);
-    // console.log("X", historyX);
+    console.log("O", historyO);
+    console.log("X", historyX);
 
 
     target.textContent = player;
