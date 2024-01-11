@@ -75,6 +75,8 @@ function onClick(evt) {
         }
         if (historyX.length + historyO.length === 9) {
             champion.innerHTML = `No winner this time! Play a new game`;
+            oWins = oWins;
+            xWins = xWins;
             resetGame()
         };
         resetGame()
